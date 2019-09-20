@@ -1,6 +1,6 @@
-
 var fruits = ["Banana", "Apple", "Orange", "Lemon"];
+var div = document.getElementById('test-moc');
 fruits.forEach(function (item) {
     if (item == "Apple") {item = "Only Apple"};
-    document.write(item+"<br />");
+    div.innerHTML += item+'<br />';
 });
